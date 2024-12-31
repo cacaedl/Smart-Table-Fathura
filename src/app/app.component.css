@@ -1,0 +1,100 @@
+/* Light Mode */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.table-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Status khusus hanya untuk teks "Unintegrated" */
+.status-unintegrated {
+  font-weight: bold;
+  color: #ffc107; /* Gold color for Unintegrated status */
+}
+
+/* Gaya untuk overlay modal */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-footer {
+  background-color: #f1f1f1;
+}
+
+.status-unintegrated {
+  color: gray;
+  font-weight: bold;
+}
+
+.status-sent {
+  font-weight: bold;
+}
+
+/* Gaya untuk ikon JSON */
+img[alt="JSON Icon"] {
+  vertical-align: middle;
+}
+
+
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.dark-mode .table-dark {
+  background-color: #1c1c1c;
+}
+
+body.dark-mode .btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+body.dark-mode .btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+body.dark-mode .btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+body.dark-mode .table {
+  color: #fff;
+  border-color: #444;
+}
+
+body.dark-mode .thead-dark {
+  background-color: #333;
+}
+
+body.dark-mode .pagination-controls {
+  color: white;
+}
